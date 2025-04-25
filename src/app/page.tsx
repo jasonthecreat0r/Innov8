@@ -27,17 +27,6 @@ export default function Home() {
     { name: "Facial Treatment", price: "$40" }
   ];
 
-  // Define hours data
-  const hours = [
-    { day: "Sunday", time: "CLOSED" },
-    { day: "Monday", time: "CLOSED" },
-    { day: "Tuesday", time: "10AM - 5PM" },
-    { day: "Wednesday", time: "10AM - 8PM" },
-    { day: "Thursday", time: "9AM - 8PM" },
-    { day: "Friday", time: "9AM - 8PM" },
-    { day: "Saturday", time: "8AM - 4PM" }
-  ];
-
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
